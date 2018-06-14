@@ -55,7 +55,7 @@ while (-1)
 			close($OUTF);
 			chdir "$WESNOTHDIR/bin";
 			print "Starting screen process\n";
-			system("$SCREENCMD -fa -S Wesnothd -d -U -m $WESNOTHDIR/runwesnothd");
+			system("$SCREENCMD -fa -S Wesnothd -d -U -m $WESNOTHDIR/runwesnoth-server");
 		}
 	}
 	# Sleep for 5 minutes before checking again

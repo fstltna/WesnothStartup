@@ -1,0 +1,3 @@
+#!/bin/bash
+
+wesnothd -t 10 -v
