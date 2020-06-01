@@ -9,7 +9,9 @@ Official support sites: [Official Github Repo](https://github.com/fstltna/Wesnot
 These start up the Wesnothd server at boot time with a "screen" process.
 
 1. Copy **wesnoth-server** into **/home/wesnothowner/bin** - make sure it is executable
-2. Put **@reboot /home/wesnothowner/bin/wesnoth-server start** into your crontab
+2. Copy **runwesnoth-server** into **/home/wesnothowner/wesnoth** - make sure it is executable
+3. Copy **startwesnoth-server** into **/home/wesnothowner/wesnoth** - make sure it is executable
+4. Put **@reboot /home/wesnothowner/bin/wesnoth-server start** into your crontab
 
 
 When you want to view the Wesnoth console, just enter "**screen -r**" in your shell.
