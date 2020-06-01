@@ -20,7 +20,7 @@ To disconnect from the Wesnoth console just press **CTRL-A CTRL-D**. This will l
 
 I have only tested this on a Ubuntu 16.04 server...
 
-If you want to turn off the server respawning type "**touch /home/wesnothowner/WesnothStartup/nostart**". To reenable it type "**rm /home/wesnothowner/WesnothStartup/nostart**".
+If you want to turn off the server respawning type "**touch /home/wesnothowner/wesnoth/nostart**". To reenable it type "**rm /home/wesnothowner/wesnoth/nostart**".
 
 ---
 Note: If you don't already have the "screen" tool installed you will need to install it by "**sudo apt-get install screen**".
