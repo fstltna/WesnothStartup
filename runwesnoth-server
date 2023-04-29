@@ -1,3 +1,3 @@
 #!/bin/bash
-wesnothd -t 10 -v -c /home/wesnothowner/wesnoth/wesnothC
+./wesnothd -t 10 -v -c /home/wesnothowner/wesnoth/wesnothC
 exit 0
